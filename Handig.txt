@@ -1,6 +1,0 @@
-for loop die loopt door alle patches
-
-if patch dichtbij coordinaat staat --> 1
-anders --> 0
-
-
