@@ -27,15 +27,9 @@ def showImages(data):
             cv2.setMouseCallback("images", mousePoints)
             cv2.waitKey(0)
 
-cv2.setMouseCallback("images", mousePoints)
 cv2.waitKey(0)
 showImages(dataset)
 
 with open('coords.txt', 'w') as f:
     for item in coords:
         f.write(str(item) + "\n")
-
-
-
-
-
